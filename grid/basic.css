@@ -1,0 +1,37 @@
+:root {
+    --clr-dark: #000000;
+    --clr-light: #022e5a;
+    --clr-accent: #eb65f0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+}
+.container {
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    border: 10px solid var(--clr-dark);
+}
+
+
+.item {
+    background-color: #fb7185;
+    padding: 0.5em;
+    font-weight: 700;
+    color: var(--clr-light);
+    border: 10px solid var(--clr-accent);
+}
+  
